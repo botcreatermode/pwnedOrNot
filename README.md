@@ -1,6 +1,6 @@
 <p align="center"><img src="https://i.imgur.com/ojjMbWX.jpg"></p>
 
-<h4 align="center">OSINT Tool for Finding Passwords of Compromised Email Accounts</h4>
+<h4 align="center">botcreatermode Tool for Finding Passwords of Compromised Email Accounts</h4>
 
 <p align="center">
   <img src="https://img.shields.io/badge/HaveIBeenPwned-v3-blue.svg?style=plastic">
@@ -8,11 +8,11 @@
 </p>
 
 <p align="center">
-  <a href="https://twitter.com/thewhiteh4t"><b>Twitter</b></a>
+  <a href="https://twitter.com/botcreatermode"><b>Twitter</b></a>
   <span> - </span>
-  <a href="https://t.me/thewhiteh4t"><b>Telegram</b></a>
+  <a href="https://t.me/botcreatermode"><b>Telegram</b></a>
   <span> - </span>
-  <a href="https://thewhiteh4t.github.io"><b>Blog</b></a>
+  <a href="https://botcreatermode.github.io"><b>Blog</b></a>
 </p>
 
 | Available | in | |
@@ -25,7 +25,7 @@ pwnedOrNot uses [**haveibeenpwned**](https://haveibeenpwned.com/API/v3) v3 api t
 ## Featured 
 <a href="https://jakecreps.com/2019/05/08/osint-collection-tools-for-pastebin/">OSINT Collection Tools for Pastebin - Jake Creps</a>
 
-## [**Changelog**](https://github.com/thewhiteh4t/pwnedOrNot/wiki/Changelog)
+## [**Changelog**](https://github.com/botcreatermode/pwnedOrNot/wiki/Changelog)
 
 ## Features
 [**haveibeenpwned**](https://haveibeenpwned.com/API/v3) offers a lot of information about the compromised email, some useful information is displayed by this script:
@@ -49,7 +49,7 @@ And with all this information **pwnedOrNot** can easily find passwords for compr
 **Ubuntu / Kali Linux / Nethunter / Termux**
 
 ```bash
-git clone https://github.com/thewhiteh4t/pwnedOrNot.git
+git clone https://github.com/botcreatermode/pwnedOrNot.git
 cd pwnedOrNot
 pip3 install requests
 ```
@@ -63,8 +63,8 @@ pacman -S pwnedornot
 **Docker**
 
 ```bash
-docker pull thewhiteh4t/pwnedornot
-docker create -it --name pon thewhiteh4t/pwnedornot
+docker pull botcreatermode/pwnedornot
+docker create -it --name pon botcreatermode/pwnedornot
 docker start pon -i
 ```
 
