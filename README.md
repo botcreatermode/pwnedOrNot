@@ -1,5 +1,3 @@
-<p align="center"><img src="https://i.imgur.com/ojjMbWX.jpg"></p>
-
 <h4 align="center">botcreatermode Tool for Finding Passwords of Compromised Email Accounts</h4>
 
 <p align="center">
